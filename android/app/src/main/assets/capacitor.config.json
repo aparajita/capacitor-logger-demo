@@ -1,0 +1,17 @@
+{
+	"appId": "com.aparajita.capacitor.loggerdemo",
+	"appName": "Logger demo",
+	"loggingBehavior": "production",
+	"webDir": "dist",
+	"plugins": {
+		"Logger": {
+			"level": "debug",
+			"labels": {
+				"error": "☠️",
+				"warn": "👀",
+				"info": "💬",
+				"debug": "🪰"
+			}
+		}
+	}
+}

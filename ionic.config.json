@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-logger-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
