@@ -20,20 +20,38 @@ pnpm build  # npm run build
 To launch the demo in a browser:
 
 ```shell
-pnpm dev  # npm run serve
+pnpm dev  # npm run dev
 ```
 
-Once the demo is open.
+Once the demo is running, open the browser console to view the log output.
 
-### Native
+### iOS
 
-To launch the demo in Xcode or Android Studio:
+To launch the demo in Xcode:
 
 ```shell
-pnpm ios.run  # npm run ios.run
-pnpm android.run  # npm run ios.run
+pnpm ios.dev  # npm run ios.dev
 ```
 
-Once Xcode/Android Studio opens, select the device or simulator you wish to run the demo on. When the demo app opens, .
+- Once Xcode opens, select the device or simulator you wish to run the demo on and click Run.
+- When the demo app opens, you can view the log output in the Xcode debug log.
+- Open `Console.app` and click on the simulator in the left sidebar.
+- Click "Start streaming" in the main view.
+- Click in the Search field, enter "Logger", and hit Return.
+
+If "Use syslog" is off in the demo, you will see log output only in the Xcode debug log. If "Use syslog" is on, you will see log output in the Xcode debug log and in `Console.app`.
+
+> Note: Debug log messages from a simulator will not appear in `Console.app`.
+
+### Android
+
+To launch the demo in Android Studio:
+
+```shell
+pnpm android.dev  # npm run ios.dev
+```
+
+- Once Android Studio opens, select the device or simulator you wish to run the demo on and click Run.
+- When the demo app opens, open the `Logcat` tab and enter "Logger" in the search field.
 
 </div>
