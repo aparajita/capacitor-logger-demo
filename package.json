@@ -24,7 +24,7 @@
     "android.prod": "ionic cap run android --open",
     "ionic:build": "vite build",
     "ionic:serve": "vite",
-    "prelease": "pnpm build",
+    "prerelease": "pnpm build",
     "release": "commit-and-tag-version && git push --follow-tags"
   },
   "dependencies": {
