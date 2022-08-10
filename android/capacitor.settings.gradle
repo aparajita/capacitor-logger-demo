@@ -3,7 +3,7 @@ include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/.pnpm/@capacitor+android@4.0.1_@capacitor+core@4.0.1/node_modules/@capacitor/android/capacitor')
 
 include ':aparajita-capacitor-logger'
-project(':aparajita-capacitor-logger').projectDir = new File('../../capacitor-logger/android')
+project(':aparajita-capacitor-logger').projectDir = new File('../node_modules/.pnpm/@aparajita+capacitor-logger@3.1.0/node_modules/@aparajita/capacitor-logger/android')
 
 include ':capacitor-app'
 project(':capacitor-app').projectDir = new File('../node_modules/.pnpm/@capacitor+app@4.0.1_@capacitor+core@4.0.1/node_modules/@capacitor/app/android')

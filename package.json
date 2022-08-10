@@ -27,7 +27,7 @@
     "release": "commit-and-tag-version && git push --follow-tags"
   },
   "dependencies": {
-    "@aparajita/capacitor-logger": "^3.0.0",
+    "@aparajita/capacitor-logger": "^3.1.0",
     "@capacitor/android": "^4.0.1",
     "@capacitor/app": "^4.0.1",
     "@capacitor/core": "^4.0.1",
