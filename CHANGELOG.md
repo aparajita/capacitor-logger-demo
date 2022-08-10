@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [1.1.1](https://github.com/aparajita/capacitor-logger-demo/compare/v1.1.0...v1.1.1) (2022-08-10)
+
+
+### Maintenance
+
+* update deps ([ab4063f](https://github.com/aparajita/capacitor-logger-demo/commit/ab4063f4d8c64d1a6df30903a82180cc6e903e11))
+* update to latest logger plugin ([10b1741](https://github.com/aparajita/capacitor-logger-demo/commit/10b17410792c2a1617fb5707eebe24a19cfb0c48))
+
 ## 1.1.0 (2022-08-05)
 
 
