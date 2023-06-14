@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.0.0](https://github.com/aparajita/capacitor-logger-demo/compare/v1.1.2...v2.0.0) (2023-06-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* The app now requires v4+ of the plugin and Capacitor 5.
+
+### Features
+
+* upgrade to Capacitor 5 ([ff50648](https://github.com/aparajita/capacitor-logger-demo/commit/ff5064823cba67891c382c5670c8ae78624284fc))
+
+
+### Bug Fixes
+
+* typo in script name ([7155132](https://github.com/aparajita/capacitor-logger-demo/commit/7155132e6640c727367ba42e3a1f66b15eea3ffe))
+
 ### [1.1.2](https://github.com/aparajita/capacitor-logger-demo/compare/v1.1.1...v1.1.2) (2022-08-10)
 
 
