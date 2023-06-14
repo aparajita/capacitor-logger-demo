@@ -1,9 +1,9 @@
 <template>
-  <ion-label>{{ label }}</ion-label>
   <ion-select
     :value="modelValue"
     interface="action-sheet"
     :interface-options="{ header: 'Select a log level' }"
+    :label="label"
     @ion-change="$emit('update:modelValue', $event.detail.value)"
   >
     <ion-select-option
@@ -18,7 +18,7 @@
 
 <script setup lang="ts">
 import { LogLevel } from '@aparajita/capacitor-logger'
-import { IonLabel, IonSelect, IonSelectOption } from '@ionic/vue'
+import { IonSelect, IonSelectOption } from '@ionic/vue'
 
 const props = defineProps<{
   label: string

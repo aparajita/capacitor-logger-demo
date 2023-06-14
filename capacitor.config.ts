@@ -5,6 +5,9 @@ const config: CapacitorConfig = {
   appId: 'com.aparajita.capacitor.loggerdemo',
   appName: 'Logger demo',
   loggingBehavior: 'production',
+  server: {
+    androidScheme: 'http'
+  },
   webDir: 'dist',
   plugins: {
     Logger: {

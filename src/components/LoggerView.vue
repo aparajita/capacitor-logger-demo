@@ -23,27 +23,27 @@
     </ion-item>
 
     <ion-item>
-      <ion-label>Use text labels:</ion-label>
-      <ion-checkbox @ion-change="onChangeUseTextLevels" />
+      <ion-checkbox @ion-change="onChangeUseTextLevels">
+        Use text labels:
+      </ion-checkbox>
     </ion-item>
 
     <ion-item v-if="isIOS">
-      <ion-label>Use syslog:</ion-label>
-      <ion-checkbox @ion-change="onChangeUseSyslog" />
+      <ion-checkbox @ion-change="onChangeUseSyslog"> Use syslog: </ion-checkbox>
     </ion-item>
 
     <ion-item>
-      <ion-label>Tag:</ion-label>
       <ion-input
+        label="Tag:"
         type="text"
         @ion-blur="onTagBlur"
       />
     </ion-item>
 
     <ion-item>
-      <ion-label>Message:</ion-label>
       <ion-input
         v-model="message"
+        label="Message:"
         type="text"
         placeholder="Enter text to log"
       />
@@ -78,9 +78,9 @@
       Timers
     </ion-list-header>
     <ion-item>
-      <ion-label>Label:</ion-label>
       <ion-input
         v-model="timerLabel"
+        label="Label:"
         type="text"
       />
     </ion-item>
@@ -103,7 +103,6 @@ import {
   IonCheckbox,
   IonInput,
   IonItem,
-  IonLabel,
   IonList,
   IonListHeader
 } from '@ionic/vue'
