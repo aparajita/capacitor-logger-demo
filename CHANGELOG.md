@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [3.0.0](https://github.com/aparajita/capacitor-logger-demo/compare/v2.0.0...v3.0.0) (2024-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to Capacitor 6 & Ionic 8, up deps
+
+### Features
+
+* upgrade to Capacitor 6 & Ionic 8, up deps ([ccc51f6](https://github.com/aparajita/capacitor-logger-demo/commit/ccc51f6d1296f9d72d14e7ec7e64ef2f01ec002e))
+
 ## [2.0.0](https://github.com/aparajita/capacitor-logger-demo/compare/v1.1.2...v2.0.0) (2023-06-14)
 
 
