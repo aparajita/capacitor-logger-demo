@@ -18,7 +18,7 @@ import '@ionic/vue/css/typography.css'
 import '@ionic/vue/css/padding.css'
 
 /* Theme variables */
-import './theme/variables.css'
+import '@ionic/vue/css/palettes/dark.system.css'
 import './assets/css/styles.pcss'
 
 logger.info(`Welcome to ${kAppName}!`)

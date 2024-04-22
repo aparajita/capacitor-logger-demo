@@ -104,7 +104,7 @@ import {
   IonInput,
   IonItem,
   IonList,
-  IonListHeader
+  IonListHeader,
 } from '@ionic/vue'
 import { ref, watch } from 'vue'
 import LevelSelect from './LevelSelect.vue'
@@ -123,43 +123,43 @@ const dirActionSheet = [
     text: 'Text',
     handler: (): void => {
       logger.dir(message.value)
-    }
+    },
   },
   {
     text: 'Number',
     handler: (): void => {
       // eslint-disable-next-line @typescript-eslint/no-magic-numbers
       logger.dir(27)
-    }
+    },
   },
   {
     text: 'Boolean',
     handler: (): void => {
       logger.dir(true)
-    }
+    },
   },
   {
     text: 'Array',
     handler: (): void => {
       logger.dir(dirActionSheet)
-    }
+    },
   },
   {
     text: 'Object',
     handler: (): void => {
       logger.dir(dirSheetIsOpen)
-    }
+    },
   },
   {
     text: 'null',
     handler: (): void => {
       logger.dir(null)
-    }
+    },
   },
   {
     text: 'Cancel',
-    role: 'cancel'
-  }
+    role: 'cancel',
+  },
 ]
 
 watch(loggerLevel, (level) => {
@@ -181,14 +181,14 @@ function onTagBlur(event: IonInputCustomEvent<FocusEvent>): void {
 }
 
 function onChangeUseTextLevels(
-  event: IonCheckboxCustomEvent<{ checked: boolean }>
+  event: IonCheckboxCustomEvent<{ checked: boolean }>,
 ): void {
   if (event.detail.checked) {
     logger.labels = {
       debug: 'debug',
       info: 'info',
       warn: 'warn',
-      error: 'error'
+      error: 'error',
     }
   } else {
     logger.labels = Logger.kDefaultLevelLabels
@@ -196,7 +196,7 @@ function onChangeUseTextLevels(
 }
 
 function onChangeUseSyslog(
-  event: IonCheckboxCustomEvent<{ checked: boolean }>
+  event: IonCheckboxCustomEvent<{ checked: boolean }>,
 ): void {
   logger.useSyslog = event.detail.checked
 }

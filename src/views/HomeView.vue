@@ -21,7 +21,7 @@ import {
   IonHeader,
   IonPage,
   IonTitle,
-  IonToolbar
+  IonToolbar,
 } from '@ionic/vue'
 import LoggerView from '@/components/LoggerView.vue'
 </script>

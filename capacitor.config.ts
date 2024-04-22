@@ -6,7 +6,7 @@ const config: CapacitorConfig = {
   appName: 'Logger demo',
   loggingBehavior: 'production',
   server: {
-    androidScheme: 'http'
+    androidScheme: 'http',
   },
   webDir: 'dist',
   plugins: {
@@ -16,10 +16,10 @@ const config: CapacitorConfig = {
         error: '☠️',
         warn: '👀',
         info: '💬',
-        debug: '🪰'
-      }
-    }
-  }
+        debug: '🪰',
+      },
+    },
+  },
 }
 
 export default config

@@ -27,7 +27,7 @@ const props = defineProps<{
 }>()
 
 const levelNames = Object.values(LogLevel).filter(
-  (level) => typeof level === 'string'
+  (level) => typeof level === 'string',
 )
 
 if (!props.includeSilent) {

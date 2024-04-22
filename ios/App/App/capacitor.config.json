@@ -16,5 +16,13 @@
 				"debug": "🪰"
 			}
 		}
-	}
+	},
+	"packageClassList": [
+		"LoggerBridge",
+		"LoggerBridge",
+		"AppPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"StatusBarPlugin"
+	]
 }
